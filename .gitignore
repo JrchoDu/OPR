@@ -1,0 +1,19 @@
+target/
+**/target/
+build/
+*.db
+*.db-shm
+*.db-wal
+logs/*.log
+**/logs/*.log
+backups/*
+!backups/.gitkeep
+# Local environment files may contain database URLs and credentials.
+.env
+.env.*
+!.env.example
+*.class
+*.exe
+*.dll
+*.so
+*.tmp

@@ -1,0 +1,3 @@
+# DEDUCTIONS module
+
+Purpose: sum employee-side deductions. Inputs: employee SSS, PhilHealth, Pag-IBIG, withholding tax, loan, cash advance, other deduction. Outputs: total deductions. Data: fixed decimal `PIC 9(9)V99`. Copybooks/configuration: none. Formula: sum the seven inputs. Flow: one decimal computation. Error handling: coordinator validates non-negative amounts. Example: employee shares and other deductions are summed; employer shares are intentionally not accepted. Compile with engine build script. Test boundary and zero cases in COBOL. Java calls through coordinator. Common error: including employer contributions. Future: categorize/report totals.

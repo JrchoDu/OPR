@@ -1,0 +1,4 @@
+﻿# Source: PhilHealth UHC contribution schedule plus 2026 PhilHealth announcement reported by PIA; checked 2026-10-07
+# Employed members: 5% rate, PHP 10,000 floor, PHP 100,000 ceiling, equally shared.
+verified,rate,minimum_base,maximum_base,employee_share_percent,employer_share_percent
+YES,0.050000,10000.00,100000.00,0.500000,0.500000

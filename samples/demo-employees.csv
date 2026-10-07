@@ -1,0 +1,5 @@
+# DEVELOPMENT DEMO ONLY; use a separate demo database. Never import into production automatically.
+employee_id,first_name,last_name,position,basic_salary,pay_frequency
+EMP-00001,Juan,Dela Cruz,Software Developer,50000.00,MONTHLY
+EMP-00002,Maria,Santos,Accountant,35000.00,MONTHLY
+EMP-00003,Pedro,Reyes,HR Officer,25000.00,MONTHLY

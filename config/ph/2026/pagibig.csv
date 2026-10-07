@@ -1,0 +1,4 @@
+﻿# Source: Pag-IBIG Fund Circular No. 460, effective 2024-02-01; checked 2026-10-07
+# Fund salary cap PHP 10,000; employee rate is 1% through PHP 1,500 and 2% above; employer 2%.
+verified,employee_rate_low,employee_rate_high,employee_threshold,employer_rate,maximum_base
+YES,0.010000,0.020000,1500.00,0.020000,10000.00

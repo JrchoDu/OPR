@@ -1,0 +1,3 @@
+# EMPLOYERCOST module
+
+Purpose: calculate employer payroll cost. Inputs: gross pay and employer SSS, PhilHealth, Pag-IBIG. Output: total employer cost. Data: fixed decimal `PIC 9(9)V99`. Copybooks/configuration: none; contribution inputs come from verified agency modules. Formula: gross plus employer portions. Flow: one decimal computation. Error handling: coordinator validates. Example: gross PHP 55,000 plus employer shares. Compile/test with engine scripts and add specific fixtures. Java calls through coordinator. Common errors: subtracting employer amounts from net pay. Future: department and run summaries.

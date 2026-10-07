@@ -1,0 +1,3 @@
+# BIR withholding engine
+
+`TAXCALC.CBL` receives the taxable compensation for one payroll period and the matching six-row BIR Annex E table loaded by `PAYROLL.CBL`. It calculates base tax plus the marginal rate applied to compensation above the row's `excess_over` threshold. `GovernmentRuleBundle` verifies the complete monthly or semi-monthly table before execution. The current UI treats all entered earnings as taxable and subtracts employee SSS, PhilHealth, and Pag-IBIG shares before applying the table. MWE exemptions, non-taxable benefits, 13th-month treatment, and annualized adjustments are outside the current model. See `GOVERNMENT_SOURCE_REVIEW_2026.md`.
